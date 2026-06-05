@@ -1,0 +1,9 @@
+# macOS
+.DS_Store
+Thumbs.db
+
+# Outils locaux Claude Code (clé SSH, hook, settings) — ne pas publier
+.claude/
+
+# Logs
+*.log
