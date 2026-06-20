@@ -1129,6 +1129,23 @@ ul { list-style: none; }
   opacity: .6;
 }
 
+/* Field error messages */
+.contact-field-wrap { display: flex; flex-direction: column; gap: 5px; }
+.contact-field-error {
+  display: none;
+  font-size: 11px;
+  color: #e07a5f;
+  letter-spacing: .3px;
+  padding-left: 4px;
+}
+.contact-input.is-invalid {
+  border-color: rgba(224,122,95,.55);
+}
+.contact-input.is-invalid:focus {
+  border-color: #e07a5f;
+  background: rgba(224,122,95,.04);
+}
+
 /* Success message */
 .contact-success {
   display: none;
